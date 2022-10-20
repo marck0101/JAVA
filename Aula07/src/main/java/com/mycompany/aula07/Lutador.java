@@ -21,14 +21,14 @@ public class Lutador {
             int vi,
             int de,
             int em) {
-        this.setNome(no);
-        this.setNacionalidade(na);
-        this.setIdade(id);
-        this.setAltura(al);
-        this.setPeso(pe);
-        this.setVitorias(vi);
-        this.setDerrotas(de);
-        this.setEmpates(em);
+        nome = no;
+        nacionalidade = na;
+        idade = id;
+        altura = al;
+        setPeso(pe);
+        vitorias = vi;
+        derrotas = de;
+        empates = em;
     }
 
     //metodos especiais
@@ -124,10 +124,10 @@ public class Lutador {
     public void apresentar() {
         System.out.println("-----------------------");
         System.out.println("Lutador " + this.getNome());
-        System.out.println("Origem" + this.getNacionalidade());
+        System.out.println("Origem " + this.getNacionalidade());
         System.out.println("Idade " + this.getIdade() + " anos e " + this.getAltura() + " altura");
         //System.out.println("Altura " + this.getAltura());
-        System.out.println("Pesando " + this.getPeso()+"kg");
+        System.out.println("Pesando " + this.getPeso() + "kg");
         System.out.println("Ganhou " + this.getVitorias());
         System.out.println("Perdeu " + this.getDerrotas());
         System.out.println("Empatou " + this.getEmpates());
