@@ -2,7 +2,7 @@ package com.mycompany.aula04;
 
 public class Caneta {
 
-    public  Caneta(String m, String c, float  p) { // esse é o metodo construtor
+    public  Caneta() { // esse é o metodo construtor
         this.tampar();
         this.cor = "azul";
     }

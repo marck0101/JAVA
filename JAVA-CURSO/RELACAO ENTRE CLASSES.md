@@ -13,7 +13,11 @@ CONSTRUTOR
 METODOS 
 METODOS ABSTRATOS - GET E SET
 
+## CRIANDO UM VETOR
+![[ARRAY.png]]
+
+
+
 ## PARÂMETROS DO CONSTRUTOR
 
-![[relacao-classe-app.png]]
-
+![[parametros passados.png]]

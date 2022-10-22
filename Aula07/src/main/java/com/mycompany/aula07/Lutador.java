@@ -21,14 +21,14 @@ public class Lutador {
             int vi,
             int de,
             int em) {
-        nome = no;
-        nacionalidade = na;
-        idade = id;
-        altura = al;
-        setPeso(pe);
-        vitorias = vi;
-        derrotas = de;
-        empates = em;
+        this.nome = no;
+        this.nacionalidade = na;
+        this.idade = id;
+        this.altura = al;
+        this.setPeso(pe);
+        this.vitorias = vi;
+        this.derrotas = de;
+        this.empates = em;
     }
 
     //metodos especiais
