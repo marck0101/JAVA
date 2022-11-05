@@ -1,9 +1,10 @@
 package com.mycompany.aula07;
 
 public class Luta {
+// atributos
 
-    private String desafiado;
-    private String desafiante;
+    private Lutador desafiado;
+    private Lutador desafiante;
     private float rounds;
     private boolean aprovada;
 
@@ -11,14 +12,24 @@ public class Luta {
 
     }
 
-    public void marcarLuta() {
-
+    public void marcarLuta(Lutador l1, Lutador l2) {
+        if (l1.getCategoria().equals(l2.getCategoria())
+                && l1 != l2) {
+            this.aprovada = true;
+            this.desafiado = l1;
+            this.desafiante = l2;
+        } else {
+            this.aprovada = false;
+            this.desafiado = l1;
+            this.desafiante = l2;
+        }
     }
 
     public void lutar() {
 
     }
 
+// metodos especiais
     public String getDesafiado() {
         return desafiado;
     }
