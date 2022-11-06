@@ -2,7 +2,6 @@ package com.mycompany.aula07;
 
 public class Lutador {
 // atributos 
-
     private String nome;
     private String nacionalidade;
     private int idade;
