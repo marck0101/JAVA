@@ -30,20 +30,20 @@ public class Luta {
     }
 
 // metodos especiais
-    public String getDesafiado() {
+    public Lutador getDesafiado() {
         return desafiado;
     }
 
     public void setDesafiado(String desafiado) {
-        this.desafiado = desafiado;
+        Lutador desafiado1 = this.desafiado;
     }
 
-    public String getDesafiante() {
+    public Lutador getDesafiante() {
         return desafiante;
     }
 
     public void setDesafiante(String desafiante) {
-        this.desafiante = desafiante;
+        Lutador desafiante1 = this.desafiante;
     }
 
     public float getRounds() {
