@@ -78,7 +78,7 @@ public class Luta {
                     System.out.println("Empate!");
                     desafiado.empatarLuta();
                     desafiante.empatarLuta();
-                    break;
+                     break;
                 case 1:
                     System.out.println("Ganhou o DESAFIADO! " + this.getDesafiado().getNome());
                     desafiado.ganharLuta();
